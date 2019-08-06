@@ -35,11 +35,11 @@ What's nice is this will automatically be created with  Angular CLI with a simpl
 
 
 # For loops and if statements
-In both EJS and React we saw the ability to run for loops. With EJS we could do something annoying like:
+In both EJS and React we saw the ability to run for loops inside our HTML file. With EJS we could do something annoying like:
 ```
 <% for (items in array) { %>
-  <h1>item.name</h1>
-  <h4>item.description</h4>
+  <h1><%item.name%></h1>
+  <h4><%item.description%></h4>
 <% } %>
 ```
 
