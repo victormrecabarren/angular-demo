@@ -73,4 +73,17 @@ And here is an if statement:
   <h4>{{item.name}} available!</h4>
 </div>
 ```
-Again, here the `*ngIf` is an attribute, and the value of that attribute is the condition that we are checking. So this means that `*ngIf="item.available"` is equivalent to `if (item.available)` in javascript. If this evaluates to true, then the element will be created. If not, it'll be skipped.
+Again, here the `*ngIf` is an attribute, and the value of that attribute is the condition that we are checking. So this means that `*ngIf="item.available"` in Angular is equivalent to `if (item.available)` in javascript. If this evaluates to true, then the element will be created. If not, it'll be skipped.
+
+
+
+## Functions and Event Handlers
+
+But what if we want our HTML to have some functionality or the ability to be interactive? Well, Angular has options for that as well.
+
+Here is how we attach first an event handler, and then a pre defined function to any element.
+```
+<button (click)="showPrice()">View Price</button>
+```
+
+For this button, when it is clicked, it will run the `showPrice` function that is defined inside of its `component.ts` file. We add the event handler using parentheses. This will also accept `(mouseenter)`, `(mouseleave)` and other event handlers. 
