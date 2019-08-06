@@ -3,6 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
 ## Spotify Lite ! (apologies to Spotify)
+![Drag Racing](https://github.com/victormrecabarren/angular-demo/blob/master/Screen%20Shot%202019-08-06%20at%207.46.53%20PM.png)
 
 ## Quick Start!:
 
