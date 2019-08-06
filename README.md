@@ -4,6 +4,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Spotify Lite ! (apologies to Spotify)
 
+## Quick Start!:
+
+Install Angular CLI:
+Run:
+`npm install -g @angular/cli`
+
+Create Project:
+Run:
+`ng new my-angular-app`
+`cd my-angular-app`
+`ng serve`
+
 
 
 ## Code scaffolding
@@ -86,4 +98,4 @@ Here is how we attach first an event handler, and then a pre defined function to
 <button (click)="showPrice()">View Price</button>
 ```
 
-For this button, when it is clicked, it will run the `showPrice` function that is defined inside of its `component.ts` file. We add the event handler using parentheses. This will also accept `(mouseenter)`, `(mouseleave)` and other event handlers. 
+For this button, when it is clicked, it will run the `showPrice` function that is defined inside of its `component.ts` file. We add the event handler using parentheses. This will also accept `(mouseenter)`, `(mouseleave)` and other event handlers.
