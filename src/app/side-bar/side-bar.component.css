@@ -1,0 +1,11 @@
+div {
+  margin: 10% 10%;
+}
+
+.highlight:hover {
+  color: white;
+}
+
+span {
+  margin-left: 10%;
+}

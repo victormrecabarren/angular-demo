@@ -1,0 +1,6 @@
+<app-playlist-head
+  [gotSong]="gotSong"
+></app-playlist-head>
+<app-playlist
+    (outputToParent)="getOutputVal($event)"
+></app-playlist>

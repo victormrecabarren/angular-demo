@@ -1,0 +1,23 @@
+.maincontainer {
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100vw;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+app-main {
+  height: 88%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  color: white;
+
+}
+app-console {
+  height: 12%;
+  box-sizing: border-box;
+  background-color: rgba(50,50,50,1)
+}

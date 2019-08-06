@@ -1,0 +1,17 @@
+app-side-bar {
+  width: 24%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgba(20, 20, 20, 1);
+  display: flex;
+  flex-direction: column;
+  color: lightgray;
+}
+app-body {
+  width: 76%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(60, 60, 60, 1), rgba(30, 30, 30, 1));
+  display: flex;
+  flex-direction: column
+}

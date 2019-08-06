@@ -1,0 +1,24 @@
+<div class="search">
+  <span>< ></span>
+  <input type="text" class="form-control form-rounded" placeholder="Search">
+
+</div>
+<div
+  class="view"
+  *ngIf="src">
+  <img
+    class="cover"
+    src="./assets/images/{{src}}"
+    />
+    <div class="info">
+      <small>Album</small>
+      <h2>{{currentSong.album}}</h2>
+      <small>By </small>
+      <p>{{currentSong.artist}}</p>
+    </div>
+</div>
+<div class="controls">
+<button class="btn btn-success">PLAY</button>
+
+
+</div>

@@ -1,0 +1,54 @@
+h2 {
+  font-weight: 900;
+}
+
+.cover {
+  height: 170px;
+}
+
+.search {
+  height: 20%;
+  font-size: 1.5em;
+}
+span {
+  margin-top: 5%;
+}
+
+.form-rounded {
+  display: inline;
+  height: 20px;
+  width: 170px;
+  border-radius: 1rem;
+  margin: 2%;
+}
+
+::placeholder {
+  color: black;
+  font-size: 0.8em;
+
+}
+
+.view {
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%
+}
+
+.info {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.controls {
+  bottom: 5%;
+  position: absolute;
+}
+
+.btn-success {
+  font-size: .6em;
+  width: 100px;
+  background-color: rgba(32, 176, 67, 1);
+  border-radius: 50px;
+  margin-left: 25%
+}
