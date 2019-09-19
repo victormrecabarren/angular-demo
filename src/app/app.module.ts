@@ -9,6 +9,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { BodyComponent } from './body/body.component';
 import { PlaylistComponent } from './playlist/playlist.component';
 import { PlaylistHeadComponent } from './playlist-head/playlist-head.component';
+import { MyCompComponent } from './my-comp/my-comp.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { PlaylistHeadComponent } from './playlist-head/playlist-head.component';
     BodyComponent,
     PlaylistComponent,
     PlaylistHeadComponent,
+    MyCompComponent,
   ],
   imports: [
     BrowserModule,
